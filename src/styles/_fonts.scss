@@ -1,0 +1,45 @@
+/* FONTS */
+@font-face {
+  font-family: 'Inter', sans-serif;
+   src: url('/public/font/Inter-ExtraBold.ttf') format('ttf');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+
+   
+ }
+ 
+ @font-face {
+  font-family: 'Inter', sans-serif;
+   src: url('/public/font/Inter-Medium.ttf') format('ttf');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+ }
+ 
+ @font-face {
+  font-family: 'Inter', sans-serif;
+   src: url('/public/font/Inter-Regular.ttf') format('woff2');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+ }
+
+ @font-face {
+  font-family: 'Inter', sans-serif;
+  src: url('/public/font/Inter-Light.ttf') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter', sans-serif;
+  src: url('/public/font/Inter-ExtraLight.ttf') format('woff2');
+  font-weight: light;
+  font-style: normal;
+  font-display: swap;
+}
+
+ 
+

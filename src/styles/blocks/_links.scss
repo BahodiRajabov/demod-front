@@ -1,0 +1,29 @@
+.custom-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    border-bottom: 1.5px solid #b7cbfd;
+    transition: all 0.4s ease;
+    color: #1d5bf9;
+    text-decoration: none;
+    width: 100%;
+
+    &:hover{
+        color: #5584fa;
+        border-color: #80a3fc;;
+    }
+
+    &:active{
+        color: #0646e6;
+        border-color: #1d5bf9;
+    }
+
+    &:disabled{
+        color: #686868;
+        border-color:#b3b3b3;
+    }
+}
+
+// .MuiBackdrop-invisible{
+//     display: none !important;
+// }

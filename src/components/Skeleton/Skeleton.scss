@@ -1,0 +1,45 @@
+.skeleton {
+   background: #ddd;
+   overflow: hidden;
+   margin: 10px 0;
+   border-radius: 4px;
+ }
+ .skeleton.text {
+   width: 100%;
+   height: 24px;
+ }
+ .skeleton.title {
+   width: 50%;
+   height: 20px;
+   margin-bottom: 15px;
+ }
+ .skeleton.avatar {
+   width: 26px;
+   height: 26px;
+   margin-bottom: 13px;
+   margin-right: 13px;
+   border-radius: 50%;
+ }
+ .skeleton.thumbnail {
+   width: 100px;
+   height: 100px;
+ }
+ .skeleton-wrapper {
+   margin: 20px auto;
+   padding: 10px 15px;
+   /* add border radius to soften wrapper with theme */
+   border-radius: 4px;
+ }
+ 
+ /* skeleton profile */
+ .skeleton-profile {
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   grid-gap: 30px;
+   align-items: center;
+ }
+ 
+ /* themes */
+ .skeleton-wrapper {
+   background: #f2f2f2;
+ }
