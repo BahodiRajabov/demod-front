@@ -90,8 +90,9 @@ function Filters() {
         let ctCollecter = [];
         for (let category of categoryData) {
           for (let chldCt of category?.children) {
+            console.log(category, chldCt, "filterrr")
             for (let rt of rtCt) {
-              if (rt == chldCt.id) {
+              if (rt == chldCt?.id) {
                 ctCollecter.push(chldCt);
               }
             }
@@ -107,7 +108,7 @@ function Filters() {
         for (let color of allColors[0]?.data) {
           console.log(color, "category_filter");
           for (let rt of rtCt) {
-            if (rt == color.id) {
+            if (rt == color?.id) {
               ctCollecter.push(color);
             }
           }
@@ -121,7 +122,7 @@ function Filters() {
         for (let style of stylesData?.data) {
           console.log(stylesData?.data, "stylesData")
           for (let rt of rtCt) {
-            if (rt == style.id) {
+            if (rt == style?.id) {
               ctCollecter.push(style);
             }
           }
@@ -153,7 +154,7 @@ function Filters() {
     let arr = [];
     if (ctRt) {
       for (let i = 0; i < ctRt.length; i++) {
-        if (ctRt[i] != item.id) {
+        if (ctRt[i] != item?.id) {
           arr.push(ctRt[i])
         }
       }
